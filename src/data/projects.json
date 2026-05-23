@@ -1,4 +1,15 @@
 [
+    {
+    "id": "Sentinal",
+    "title": "Face Recognition Access Control System with Servo Motor and Pushbullet Integration",
+    "description": "This project combines face recognition, servo motor control, Pushbullet notifications, and a GUI-based PIN entry system to create an intelligent and secure access control system.",
+    "techStack": ["Python 3.x", "OpenCV", "face_recognition", "gpiozero", "Pushbullet API", "Tkinter"],
+    "githubLink": "https://github.com/tanmaymohite/sentinel",
+    "liveLink": "",
+    "category": "IoT & Computer Vision",
+    "featured": true,
+    "image": ""
+  },
   {
     "id": "quant-trade-cli",
     "title": "QuantTrade CLI",
