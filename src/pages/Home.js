@@ -35,7 +35,7 @@ function Home({ setActivePage }) {
         <div className="hero-text-container">
           <p className="hero-greeting">Hi, my name is</p>
           <h1 className="hero-title">Tanmay Mohite.</h1>
-          <h2 className="hero-subtitle">I build things for the web and the terminal.</h2>
+          <h2 className="hero-subtitle">I build things.</h2>
           <p className="hero-description">
             I am a passionate computer science student specializing in constructing modern frontend architectures, high-performance CLI utilities, and robust backend systems. Let's create something exceptional!
           </p>
