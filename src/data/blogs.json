@@ -25,5 +25,14 @@
     "tags": ["React", "JavaScript", "Frontend", "Performance"],
     "summary": "Concurrency is the crown jewel of React 18. This article explores how features like transitions, useDeferredValue, and automatic batching work under the hood to deliver ultra-smooth user interfaces.",
     "content": "For years, React operated sequentially. When a render triggered, the main browser thread was occupied until the complete DOM update was prepared, occasionally resulting in frame drops or stuttering interfaces during heavy computations. React 18 completely re-architected this sequence by introducing concurrent rendering.\n\nUsing transitions (via startTransition or useTransition), React can mark specific updates as low priority. If a user continues typing, React pauses the background search render to ensure the keystroke animation is fluid, resuming the computational render once the browser goes idle. Mastering this behavior prevents the need for complex throttle/debounce workarounds."
+  },
+  {
+    "id": "react-19-concurrent-rendering",
+    "title": "New idea",
+    "date": "March 10, 2026",
+    "readTime": "8 min read",
+    "tags": ["React", "JavaScript", "Frontend", "Performance"],
+    "summary": "Concurrency is the crown jewel of React 18. This article explores how features like transitions, useDeferredValue, and automatic batching work under the hood to deliver ultra-smooth user interfaces.",
+    "content": "For years, React operated sequentially. When a render triggered, the main browser thread was occupied until the complete DOM update was prepared, occasionally resulting in frame drops or stuttering interfaces during heavy computations. React 18 completely re-architected this sequence by introducing concurrent rendering.\n\nUsing transitions (via startTransition or useTransition), React can mark specific updates as low priority. If a user continues typing, React pauses the background search render to ensure the keystroke animation is fluid, resuming the computational render once the browser goes idle. Mastering this behavior prevents the need for complex throttle/debounce workarounds."
   }
 ]
