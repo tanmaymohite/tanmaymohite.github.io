@@ -1,0 +1,29 @@
+[
+  {
+    "id": "demystifying-websockets-go",
+    "title": "Demystifying WebSockets: Building a Real-time CLI Dashboard in Go",
+    "date": "May 15, 2026",
+    "readTime": "6 min read",
+    "tags": ["Go", "WebSockets", "CLI", "Networks"],
+    "summary": "Building high-performance terminal applications that consume real-time web streams can feel complex. In this article, we walk through constructing a highly efficient, multi-threaded WebSocket client in Go from scratch.",
+    "content": "Real-time communication is the backbone of modern interactive systems. While HTTP polling works for minor applications, low-latency applications like live financial dashboards demand persistent duplex connections. In Go, the combination of lightweight Goroutines, standard channels, and the gorilla/websocket package allows developers to stream millions of events per second with virtually zero overhead.\n\nIn this technical breakdown, we look at how to spin up an asynchronous reader/writer loop. The key is isolating network connection logic from dashboard rendering logic. By using channel buffers, we ensure that occasional lag in rendering does not block the WebSocket frame-read pipeline, providing a flawless user experience."
+  },
+  {
+    "id": "switch-to-css-variables",
+    "title": "Why I Returned to Vanilla CSS Variables Over Heavy Frameworks",
+    "date": "April 28, 2026",
+    "readTime": "4 min read",
+    "tags": ["CSS", "Web Design", "Aesthetics", "Performance"],
+    "summary": "Tailwind and Styled-Components are excellent tools, but as browsers evolve, vanilla CSS variables and modern layout specs are becoming extremely powerful. Here is why I switched back to native stylesheets.",
+    "content": "Modern CSS is unrecognizable compared to the styling sheets of a decade ago. With the introduction of CSS Variables (Custom Properties), CSS Grid, and subgrid, many of the standard structural challenges have been resolved natively. During the creation of this very portfolio, I challenged myself to skip the node package bloat and write raw, fluid CSS.\n\nCSS custom properties allow dynamic theme changes (like Solarized Dark switching) with a single root property change. They are fully accessible via JavaScript, undergo standard compilation pipelines without heavy build tools, and cost 0ms in runtime evaluation. For custom creative layouts, vanilla CSS provides unlimited, unfettered expressiveness."
+  },
+  {
+    "id": "react-18-concurrent-rendering",
+    "title": "Deep Dive into React 18: Unlocking Concurrent Features Safely",
+    "date": "March 10, 2026",
+    "readTime": "8 min read",
+    "tags": ["React", "JavaScript", "Frontend", "Performance"],
+    "summary": "Concurrency is the crown jewel of React 18. This article explores how features like transitions, useDeferredValue, and automatic batching work under the hood to deliver ultra-smooth user interfaces.",
+    "content": "For years, React operated sequentially. When a render triggered, the main browser thread was occupied until the complete DOM update was prepared, occasionally resulting in frame drops or stuttering interfaces during heavy computations. React 18 completely re-architected this sequence by introducing concurrent rendering.\n\nUsing transitions (via startTransition or useTransition), React can mark specific updates as low priority. If a user continues typing, React pauses the background search render to ensure the keystroke animation is fluid, resuming the computational render once the browser goes idle. Mastering this behavior prevents the need for complex throttle/debounce workarounds."
+  }
+]

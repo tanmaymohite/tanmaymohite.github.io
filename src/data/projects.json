@@ -1,0 +1,57 @@
+[
+  {
+    "id": "quant-trade-cli",
+    "title": "QuantTrade CLI",
+    "description": "A high-performance command-line dashboard that streams and analyzes real-time financial market data using WebSockets and displays automated technical indicators (RSI, MACD) in a customizable dashboard terminal.",
+    "techStack": ["Go", "WebSockets", "Termui", "gRPC"],
+    "githubLink": "https://github.com/tanmaymohite/quanttrade-cli",
+    "liveLink": "",
+    "category": "CLI Tools",
+    "featured": true,
+    "image": ""
+  },
+  {
+    "id": "devflow-community",
+    "title": "DevFlow Forums",
+    "description": "A comprehensive collaborative Q&A platform for software developers. Features a smart AI-powered search recommendation system, reputation scoring, user badge achievements, and a fully interactive rich text editor.",
+    "techStack": ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
+    "githubLink": "https://github.com/tanmaymohite/devflow-forums",
+    "liveLink": "https://devflow-community.demo.com",
+    "category": "Web Applications",
+    "featured": true,
+    "image": ""
+  },
+  {
+    "id": "neuro-classify",
+    "title": "NeuroClassify Engine",
+    "description": "A deep learning neural network microservice built with PyTorch to classify medical MRIs with high accuracy. Served via a robust FastAPI server and Dockerized for highly scalable microservice orchestrations.",
+    "techStack": ["Python", "PyTorch", "FastAPI", "Docker", "AWS S3"],
+    "githubLink": "https://github.com/tanmaymohite/neuroclassify-engine",
+    "liveLink": "",
+    "category": "Machine Learning",
+    "featured": false,
+    "image": ""
+  },
+  {
+    "id": "solar-system-3d",
+    "title": "CosmicVoyage 3D",
+    "description": "An interactive, web-based 3D simulation of our solar system using physics-based orbital trajectories. Leverages three.js for hardware-accelerated graphic rendering and smooth reactive navigation.",
+    "techStack": ["React", "Three.js", "React Three Fiber", "Web Audio API"],
+    "githubLink": "https://github.com/tanmaymohite/cosmicvoyage-3d",
+    "liveLink": "https://tanmaymohite.github.io/cosmicvoyage-3d",
+    "category": "Web Applications",
+    "featured": true,
+    "image": ""
+  },
+  {
+    "id": "antigravity-ui",
+    "title": "Antigravity UI Design System",
+    "description": "A lightweight, fully typed, and highly accessible (WAI-ARIA compliant) headless UI component library built from scratch, designed with deep dark-mode support and custom fluid animation transitions.",
+    "techStack": ["React", "TypeScript", "Vanilla CSS", "Rollup"],
+    "githubLink": "https://github.com/tanmaymohite/antigravity-ui",
+    "liveLink": "https://antigravity-ui.design",
+    "category": "Libraries",
+    "featured": false,
+    "image": ""
+  }
+]

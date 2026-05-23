@@ -1,0 +1,184 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+/* Intro block */
+.intro-container {
+  border-left: 4px solid var(--accent-cyan);
+}
+
+.intro-text p {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.intro-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Skill Cards Styles */
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skill-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 12px;
+}
+
+.about-icon {
+  font-size: 1.5rem;
+}
+
+.skill-card-header h3 {
+  font-size: 1.25rem;
+  color: var(--text-primary);
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-family: var(--font-display);
+}
+
+.skill-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-cyan);
+  box-shadow: 0 0 6px var(--accent-cyan);
+}
+
+/* Timeline Layout Styles */
+.timeline-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Vertical track line */
+.timeline-track {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 32px;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent-cyan), var(--accent-blue), transparent);
+  opacity: 0.3;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 80px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Timeline Glowing Nodes */
+.timeline-icon-node {
+  position: absolute;
+  top: 15px;
+  left: 13px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg-base);
+  font-size: 1rem;
+  z-index: 2;
+  box-shadow: var(--shadow-sm);
+}
+
+.work-node {
+  background: var(--accent-cyan);
+  box-shadow: 0 0 12px rgba(42, 161, 152, 0.4);
+}
+
+.edu-node {
+  background: var(--accent-blue);
+  box-shadow: 0 0 12px rgba(38, 139, 210, 0.4);
+}
+
+/* Timeline Content Card */
+.timeline-content {
+  padding: 24px !important;
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 12px;
+}
+
+.timeline-title {
+  font-size: 1.25rem;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.timeline-org {
+  font-family: var(--font-mono);
+  color: var(--accent-cyan);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.timeline-duration {
+  font-size: 0.75rem !important;
+  white-space: nowrap;
+}
+
+.timeline-desc {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Responsive Timelines */
+@media (max-width: 600px) {
+  .timeline-track {
+    left: 20px;
+  }
+  .timeline-item {
+    padding-left: 55px;
+  }
+  .timeline-icon-node {
+    left: 1px;
+    width: 38px;
+    height: 38px;
+  }
+  .timeline-header {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
