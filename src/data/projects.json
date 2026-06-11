@@ -33,11 +33,11 @@
     "image": ""
   },
   {
-    "id": "neuro-classify",
-    "title": "NeuroClassify Engine",
-    "description": "This project is a Data Structures and Algorithms (DSA) implementation focused on Linked List operations in C.It was developed as part of my engineering coursework to strengthen understanding of pointers, dynamic memory allocation, and node manipulation.",
+    "id": "logic development",
+    "title": "pattern-based logic development",
+    "description": "A comprehensive collection of C programs that generate over 90 unique mathematical and visual patterns using nested loops.",
     "techStack": ["C", "Data Structures", "Algorithms"],
-    "githubLink": "https://github.com/tanmaymohite/DSA-LinkedList-Project",
+    "githubLink": "https://github.com/tanmaymohite/pattern_printing",
     "liveLink": "",
     "category": "Data Structures & Algorithms",
     "featured": false,

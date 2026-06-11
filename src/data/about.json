@@ -1,0 +1,57 @@
+{
+  "pageTitle": "About Me",
+  "introParagraphs": [
+    "Hi! I'm Tanmay Mohite, an Electronics & Telecommunication engineering student with a strong passion for software development, AI, and modern technology. I enjoy building practical and visually engaging digital experiences that combine functionality with clean design.",
+    "My journey started with experimenting in Python and electronics-based projects, which gradually evolved into creating AI-powered assistants, automation tools, and responsive web interfaces. I love exploring how hardware and software can work together to solve real-world problems efficiently.",
+    "I focus on writing organized, scalable, and user-friendly code while constantly learning new technologies and development practices. My interests include artificial intelligence, frontend development, embedded systems, and interactive applications.",
+    "Beyond coding, I actively participate in technical projects, research new innovations in technology, and enjoy collaborating on creative ideas that push my skills further."
+  ],
+  "skillsSection": {
+    "title": "My Skills",
+    "subtitle": "Technologies and toolsets I work with daily",
+    "categories": [
+      {
+        "title": "Languages",
+        "iconKey": "code",
+        "skills": ["JavaScript (ES6+)", "TypeScript", "Go (Golang)", "Python", "HTML5 & CSS3"]
+      },
+      {
+        "title": "Frameworks & Libraries",
+        "iconKey": "server",
+        "skills": ["React.js", "Node.js", "Express", "FastAPI", "Three.js"]
+      },
+      {
+        "title": "Tools & Infrastructure",
+        "iconKey": "tools",
+        "skills": ["Git & GitHub", "Docker", "MongoDB", "PostgreSQL", "Linux / Bash"]
+      }
+    ]
+  },
+  "timelineSection": {
+    "title": "Timeline",
+    "subtitle": "My professional and academic journey so far",
+    "items": [
+      {
+        "type": "work",
+        "title": "Full Stack Engineering Intern",
+        "organization": "TechCorp Labs",
+        "duration": "May 2025 - August 2025",
+        "desc": "Architected modern responsive dashboards using React and integrated robust server configurations. Improved page-load speed by 35% through efficient asset optimization and state caching."
+      },
+      {
+        "type": "education",
+        "title": "B.Tech in Computer Science & Engineering",
+        "organization": "State Technical University",
+        "duration": "2023 - Present",
+        "desc": "Maintaining a 9.2/10 CGPA. Core focus areas include Advanced Data Structures, Operating Systems, Database Management Systems, and Software Architecture principles."
+      },
+      {
+        "type": "work",
+        "title": "Open Source Core Contributor",
+        "organization": "Go CLI Ecosystems",
+        "duration": "2024 - Present",
+        "desc": "Actively contributing to open-source terminal interface builders. Implemented lightweight networking adapters and optimized window resizing event listeners."
+      }
+    ]
+  }
+}

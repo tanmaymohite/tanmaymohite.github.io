@@ -1,0 +1,45 @@
+{
+  "heroSection": {
+    "greeting": "Hi, my name is",
+    "name": "Tanmay Mohite.",
+    "subtitle": "I build things.",
+    "description": "I am a passionate Electronics & Telecommunication engineering student with a strong interest in AI, software development, and modern digital technologies. I enjoy building intelligent applications, responsive web interfaces, and practical systems that combine performance with clean user experience. Let’s create something exceptional!",
+    "primaryButton": {
+      "label": "View Projects",
+      "targetPage": "projects"
+    },
+    "secondaryButton": {
+      "label": "About Me",
+      "targetPage": "about"
+    }
+  },
+  "highlightsSection": {
+    "title": "What I Do",
+    "subtitle": "My core focus areas and engineering competencies",
+    "highlights": [
+      {
+        "iconKey": "code",
+        "title": "Frontend Engineering",
+        "desc": "Creating high-fidelity, responsive user interfaces with focus on semantic structure, clean layouts, and rich micro-interactions."
+      },
+      {
+        "iconKey": "server",
+        "title": "Backend Architectures",
+        "desc": "Designing secure, Dockerized microservices, high-speed RESTful/gRPC APIs, and robust relational & NoSQL databases."
+      },
+      {
+        "iconKey": "terminal",
+        "title": "CLI & System Utilities",
+        "desc": "Developing fast, thread-safe command line tools and automated script workflows in Go, Python, and shell scripts."
+      }
+    ]
+  },
+  "featuredSection": {
+    "title": "Featured Projects",
+    "subtitle": "A curated selection of my recent works",
+    "ctaButton": {
+      "label": "Browse All Projects",
+      "targetPage": "projects"
+    }
+  }
+}
