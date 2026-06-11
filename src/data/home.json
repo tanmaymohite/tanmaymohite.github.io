@@ -1,7 +1,8 @@
 {
   "heroSection": {
-    "greeting": "Hi, my name is",
+    "greeting": "Hii, my name is",
     "name": "Tanmay Mohite.",
+
     "subtitle": "I build things.",
     "description": "I am a passionate Electronics & Telecommunication engineering student with a strong interest in AI, software development, and modern digital technologies. I enjoy building intelligent applications, responsive web interfaces, and practical systems that combine performance with clean user experience. Let’s create something exceptional!",
     "primaryButton": {
